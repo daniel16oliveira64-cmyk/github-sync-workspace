@@ -1,4 +1,7 @@
 /* Kroma — Website Studio editor */
+.studio-panel{display:none}.studio-panel.active{display:block}
+.creative-meta{display:flex;gap:4px;flex-wrap:wrap;margin:8px 0}.creative-meta span{font-size:10px;color:var(--muted);border-bottom:1px solid var(--line2)}
+.ws-dirty[hidden]{display:none}
 body[data-view="studio"] .main{max-width:none;padding:0}
 #studio.view.active{display:block}
 .ws{height:100vh;display:flex;flex-direction:column;min-width:0}
